@@ -1,0 +1,30 @@
+Start.
+Data loaded. It took  4.8824338913 seconds from start.
+Data preprocessed. It took  14.4196748734 seconds from start.
+Fitting baseline classifier.
+
+Model Report
+Accuracy : 0.8809
+AUC score (train): 0.955612
+CV Score: Mean - 0.6888228 | Std - 0.1249643 | Min - 0.5312111 | Max - 0.8347089
+Baseline classifier fitted. It took  558.947780848 seconds from start.
+Tuning n_estimators.
+[mean: 0.96878, std: 0.00117, params: {'n_estimators': 20}, mean: 0.98520, std: 0.00081, params: {'n_estimators': 50}, mean: 0.99174, std: 0.00088, params: {'n_estimators': 80}, mean: 0.99522, std: 0.00073, params: {'n_estimators': 110}, mean: 0.99691, std: 0.00056, params: {'n_estimators': 140}, mean: 0.99802, std: 0.00035, params: {'n_estimators': 170}, mean: 0.99864, std: 0.00028, params: {'n_estimators': 200}, mean: 0.99901, std: 0.00022, params: {'n_estimators': 230}, mean: 0.99925, std: 0.00022, params: {'n_estimators': 260}, mean: 0.99944, std: 0.00018, params: {'n_estimators': 290}, mean: 0.99956, std: 0.00016, params: {'n_estimators': 320}, mean: 0.99966, std: 0.00013, params: {'n_estimators': 350}, mean: 0.99971, std: 0.00012, params: {'n_estimators': 380}] {'n_estimators': 380} 0.999709520066
+n_estimators tuned. It took  1107.32563496 seconds from start.
+Tuning max_depth and min_samples_split.
+[mean: 0.99729, std: 0.00036, params: {'min_samples_split': 200, 'max_depth': 5}, mean: 0.99629, std: 0.00035, params: {'min_samples_split': 400, 'max_depth': 5}, mean: 0.99580, std: 0.00047, params: {'min_samples_split': 600, 'max_depth': 5}, mean: 0.99503, std: 0.00032, params: {'min_samples_split': 800, 'max_depth': 5}, mean: 0.99458, std: 0.00051, params: {'min_samples_split': 1000, 'max_depth': 5}, mean: 0.99979, std: 0.00008, params: {'min_samples_split': 200, 'max_depth': 7}, mean: 0.99962, std: 0.00011, params: {'min_samples_split': 400, 'max_depth': 7}, mean: 0.99941, std: 0.00014, params: {'min_samples_split': 600, 'max_depth': 7}, mean: 0.99915, std: 0.00017, params: {'min_samples_split': 800, 'max_depth': 7}, mean: 0.99894, std: 0.00019, params: {'min_samples_split': 1000, 'max_depth': 7}, mean: 0.99999, std: 0.00001, params: {'min_samples_split': 200, 'max_depth': 9}, mean: 0.99998, std: 0.00002, params: {'min_samples_split': 400, 'max_depth': 9}, mean: 0.99990, std: 0.00005, params: {'min_samples_split': 600, 'max_depth': 9}, mean: 0.99980, std: 0.00008, params: {'min_samples_split': 800, 'max_depth': 9}, mean: 0.99974, std: 0.00011, params: {'min_samples_split': 1000, 'max_depth': 9}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 200, 'max_depth': 11}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 400, 'max_depth': 11}, mean: 0.99998, std: 0.00003, params: {'min_samples_split': 600, 'max_depth': 11}, mean: 0.99997, std: 0.00003, params: {'min_samples_split': 800, 'max_depth': 11}, mean: 0.99992, std: 0.00004, params: {'min_samples_split': 1000, 'max_depth': 11}, mean: 1.00000, std: 0.00001, params: {'min_samples_split': 200, 'max_depth': 13}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 400, 'max_depth': 13}, mean: 0.99999, std: 0.00001, params: {'min_samples_split': 600, 'max_depth': 13}, mean: 0.99999, std: 0.00001, params: {'min_samples_split': 800, 'max_depth': 13}, mean: 0.99998, std: 0.00003, params: {'min_samples_split': 1000, 'max_depth': 13}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 200, 'max_depth': 15}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 400, 'max_depth': 15}, mean: 1.00000, std: 0.00000, params: {'min_samples_split': 600, 'max_depth': 15}, mean: 0.99999, std: 0.00000, params: {'min_samples_split': 800, 'max_depth': 15}, mean: 0.99999, std: 0.00000, params: {'min_samples_split': 1000, 'max_depth': 15}] {'min_samples_split': 400, 'max_depth': 15} 0.9999999355
+max_depth and min_samples_split tuned. It took  4800.78764486 seconds from start.
+Tuning max_features.
+[mean: 1.00000, std: 0.00000, params: {'max_features': 7}, mean: 1.00000, std: 0.00000, params: {'max_features': 9}, mean: 1.00000, std: 0.00000, params: {'max_features': 11}, mean: 1.00000, std: 0.00000, params: {'max_features': 13}, mean: 1.00000, std: 0.00000, params: {'max_features': 15}, mean: 1.00000, std: 0.00000, params: {'max_features': 17}, mean: 1.00000, std: 0.00001, params: {'max_features': 19}] {'max_features': 11} 0.999999823574
+max_features tuned. It took  6902.33224797 seconds from start.
+Tuning min_samples_leaf.
+[mean: 0.99999, std: 0.00002, params: {'min_samples_leaf': 10}, mean: 1.00000, std: 0.00000, params: {'min_samples_leaf': 20}, mean: 1.00000, std: 0.00001, params: {'min_samples_leaf': 30}, mean: 1.00000, std: 0.00000, params: {'min_samples_leaf': 40}, mean: 1.00000, std: 0.00001, params: {'min_samples_leaf': 50}, mean: 1.00000, std: 0.00001, params: {'min_samples_leaf': 60}, mean: 0.99998, std: 0.00003, params: {'min_samples_leaf': 70}, mean: 0.99999, std: 0.00001, params: {'min_samples_leaf': 80}, mean: 0.99999, std: 0.00000, params: {'min_samples_leaf': 90}, mean: 0.99999, std: 0.00001, params: {'min_samples_leaf': 100}, mean: 0.99999, std: 0.00000, params: {'min_samples_leaf': 110}] {'min_samples_leaf': 20} 0.999999610143
+min_samples_leaf tuned. It took  9171.29739785 seconds from start.
+Tuning subsample.
+[mean: 0.99999, std: 0.00001, params: {'subsample': 0.6}, mean: 0.99999, std: 0.00001, params: {'subsample': 0.7}, mean: 0.99999, std: 0.00001, params: {'subsample': 0.75}, mean: 1.00000, std: 0.00000, params: {'subsample': 0.8}, mean: 0.99999, std: 0.00001, params: {'subsample': 0.85}, mean: 0.99999, std: 0.00001, params: {'subsample': 0.9}] {'subsample': 0.8} 0.999999610143
+subsample tuned. It took  10542.8229828 seconds from start.
+
+Model Report
+Accuracy : 1
+AUC score (train): 1.000000
+CV Score: Mean - 0.9999996 | Std - 4.20921e-07 | Min - 0.9999988 | Max - 1
